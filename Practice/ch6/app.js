@@ -50,6 +50,7 @@ app.get(
 );
 
 app.get("/cookie", (req, res) => {
+  console.log(req.sessionID);
   res.status(200).send(req.cookies);
 });
 
