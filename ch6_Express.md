@@ -10,7 +10,7 @@
 const express = require("express");
 
 const app = express();
-app.set("port", process.env.PORT || 3000); // 포 실ㅇ
+app.set("port", process.env.PORT || 3000); // 포
 
 app.get("/", (req, res) => {
   // 인수로 주어진 주소의 get 요청에 대한 응답
